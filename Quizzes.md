@@ -1,4 +1,4 @@
-Which of the following projects is not a good fit for Java and Spring Boot?
+###Which of the following projects is not a good fit for Java and Spring Boot?
  
 - A graphics processing application
 - An e-commerce website
@@ -8,7 +8,7 @@ Which of the following projects is not a good fit for Java and Spring Boot?
 SOLUTION: A graphics processing application
 
 
-What are some services that Spring helps manage for us?
+###What are some services that Spring helps manage for us?
 
 - Login Security
 - HTML Generation
