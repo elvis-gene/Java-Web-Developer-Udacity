@@ -13,9 +13,11 @@ What are some services that Spring helps manage for us?
 - Login Security
 - HTML Generation
 - Database Access
+- 
 WRONG:
 - Running Multiple Java Programs in Parallel
 - Responding to Browser Requests
+- 
 RIGHT:
 - Login Security
 - HTML Generation
