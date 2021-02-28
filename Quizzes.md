@@ -18,3 +18,10 @@ RIGHT:
 - Login Security
 - HTML Generation
 - Database Access
+
+
+### What's the relationship between the Application Server and a Servlet?
+Application Servers receive HTTP requests, parse the information, and send it to all the Servlets at once.
+
+### Application Server Vs Servlet
+An Application Server can load Servlets from a WAR file at any time.
