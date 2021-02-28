@@ -1,7 +1,7 @@
-### When should not you choose Java for a project? 
-If speed is one of your priorities.
+### Choosing Java for your project? 
+You should not choose Java If speed is one of your priorities.
 
-### ANSWER CHOICES 1: Development
+### Development:
 
 | Stage of Development                    |  Next Step  |
 | ----------------------------------------| ----------- |
@@ -12,9 +12,15 @@ If speed is one of your priorities.
 ### Java Application Server
 A Java Application Server is a pluggable architecture that can host many deployed applications at once. It provides utilities like multi-threading, request filtering, and resource sharing to each application. Those applications must expose endpoints that handle the requests routed to them by the server.
 
-#### Key Terms
-- HTTP: Hypertext Transfer Protocol. A binary protocol that originally defined the mechanics of requesting and sending HTML over the internet.
+#### Key Terms:
+- HTTP: Hypertext Transfer Protocol. A binary protocol that originally defined the mechanics of requesting and sending HTML over the internet. HTTP is a protocol for formatting web requests so that your Application Server can understand them
 - Web Server: A program that listens responds to HTTP requests over the internet
 - Application Server: A program that hosts other applications, forwarding incoming requests to the appropriate application according to a filter. Provides shared access to resources and multi-threading.
 - Pluggable Architecture: A pluggable architecture refers to any piece of software that allows parts of it to be added, replaced, and removed. Usually, this is achieved through a common interface for every "pluggable" component. Sometimes the architecture can even replace components at runtime, as is the case with Servlets in an Application Server.
 - Threads/Threading: These terms come from concurrent programming - a thread is essentially one track of computation, and multi-threading is running multiple threads in parallel. This gets a little complicated because your CPU has a limited number of physical cores that can process instructions in parallel, while the number of threads you can have can be many more than your computer has cores, but that's a topic for another time!
+
+
+#### Benefits:
+- It automatically handles multiple client connections simultaneously.
+- It can be configured to forward requests with custom logic.
+- It can share heavyweight or universal components with each of its applications.
