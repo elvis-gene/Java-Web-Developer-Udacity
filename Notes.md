@@ -42,4 +42,6 @@ When you compile a Java program and package it to be run, the Java compiler crea
 
 When you want to deploy an app to an app server, you have to package it as a Web application ARchive, or WAR file. A WAR file is almost identical to a JAR file, but includes configuration files specific to web applications. When we copy a WAR file into the deployment directory of an app server, the server unpackages it, looks for a web.xml file, and uses that file to find the classes and resources required by the application. This uses advanced Java features like reflection and class loading to programmatically load Java class definitions and instantiate them which is quite a nifty trick! It allows us to dynamically load, start, stop, and replace any number of applications in a web server at any time.
 
-
+### IoC
+<b>Inversion of Control</b> is one of the main features of Spring. It allows Spring to manage instances of dependencies and provide them when needed.
+We could say that Spring’s ability to inject dependencies is just like the Application Server’s ability to provide <b>Servlets</b>
