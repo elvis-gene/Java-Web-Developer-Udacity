@@ -45,3 +45,9 @@ When you want to deploy an app to an app server, you have to package it as a Web
 ### IoC
 <b>Inversion of Control</b> is one of the main features of Spring. It allows Spring to manage instances of dependencies and provide them when needed.
 We could say that Spring’s ability to inject dependencies is just like the Application Server’s ability to provide <b>Servlets</b>
+
+A design pattern in which the developer creates independent application components and uses a framework to connect them, rather than writing the integration code themselves.
+
+<b>Dependency Injection:</b> A mechanism by which IoC may be implemented. Components are configured with dependencies on other components, which are injected at runtime. Injection is quite literal - a component's dependencies are usually expressed as annotated fields on the component class, and Spring will populate those fields with the dependencies at runtime.
+
+
